@@ -1,0 +1,55 @@
+html {
+  box-sizing: content-box;
+}
+
+.container {
+    width: 950px;
+    height:100%;
+    margin:0 auto;
+}
+
+#header {
+    width:950px;
+    height:150px;
+    border:#000 solid;
+    border-width:2px 2px 1px 2px;
+}
+
+.media {
+	column-count: 2;
+  }
+.media-body {
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+
+h1 {
+	text-align: center;
+	color: orange;
+}
+
+h2 {
+	color: black;
+	text-decoration: underline;
+}
+
+.leftcolumn {
+	width: 550px;
+	height:350px;
+	border: #000 solid;
+	border-width: 1px 2px 1px 1px;
+	float: left;
+}
+
+.right {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+.right .bottom {
+    height: 40%;
+    width: 100%;
+    vertical-align: bottom;
+}
